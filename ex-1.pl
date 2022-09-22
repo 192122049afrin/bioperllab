@@ -1,0 +1,11 @@
+$DNA_seq="ATGCTACGACG";
+$DNA_seq=~tr/ATGC/atgc/;
+print $DNA_seq , "\n";
+$dna_seq="atgctacgacg";
+$dna_seq=~tr/atgc/ATGC/;
+print $dna_seq , "\n";
+$DNA_seq=uc "$DNA_seq";
+print $DNA_seq , "\n";
+$dna_seq=lc "$dna_seq";
+print $dna_seq , "\n";
+exit;
